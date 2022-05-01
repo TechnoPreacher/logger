@@ -1,0 +1,4 @@
+01-05-2022 11:36:24  *** Some message *** kk *** a:1:{s:3:"key";s:5:"value";}
+01-05-2022 11:37:11  *** Some message *** kk *** a:1:{s:3:"key";s:5:"value";}
+01-05-2022 11:37:12  *** Some message *** kk *** a:1:{s:3:"key";s:5:"value";}
+01-05-2022 11:37:12  *** Some message *** kk *** a:1:{s:3:"key";s:5:"value";}
