@@ -1,0 +1,21 @@
+{
+  "name": "ns/test.local",
+  "description": "homework for composer's demonstration",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "donkeylogger\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "TechnoPreacher",
+      "email": "nik.nik.sulima@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "psr/log": "3.x-dev"
+  }
+}
