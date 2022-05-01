@@ -1,7 +1,7 @@
 {
   "name": "technopreacher/logger",
   "description": "simple logger",
-  "type": "project",
+  "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
