@@ -1,6 +1,6 @@
 {
-  "name": "ns/test.local",
-  "description": "homework for composer's demonstration",
+  "name": "technopreacher/logger",
+  "description": "simple logger",
   "type": "project",
   "license": "MIT",
   "autoload": {
