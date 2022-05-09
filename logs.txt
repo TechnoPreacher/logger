@@ -2,3 +2,8 @@
 01-05-2022 11:37:11  *** Some message *** kk *** a:1:{s:3:"key";s:5:"value";}
 01-05-2022 11:37:12  *** Some message *** kk *** a:1:{s:3:"key";s:5:"value";}
 01-05-2022 11:37:12  *** Some message *** kk *** a:1:{s:3:"key";s:5:"value";}
+09-05-2022 05:28:49  *** CUSTOM LEVEL *** kk *** a:1:{s:3:"key";s:5:"value";}
+09-05-2022 05:28:49  *** DEBUG *** Some another message *** a:1:{s:2:"ky";s:1:"v";}
+09-05-2022 05:29:13  *** CUSTOM LEVEL *** kk *** a:1:{s:3:"key";s:5:"value";}
+09-05-2022 05:29:13  *** DEBUG *** Some another message *** a:1:{s:2:"ky";s:1:"v";}
+09-05-2022 05:29:13  *** EMERGENCY *** Some third message *** a:1:{i:0;s:7:"kdscfvk";}
