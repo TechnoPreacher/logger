@@ -14,54 +14,51 @@ class Logger implements LoggerInterface
     {
         $this->writer=$writer;
     }
-    public function universalWrite($level, \Stringable|string $message, array $context = []): void
-    {
-        $this->writer->write($level,$message,$context);
-    }
+
 
 
     public function emergency(\Stringable|string $message, array $context = []): void
     {
-        // TODO: Implement emergency() method.
+        $this->writer->write("EMERGENCY",$message,$context);
     }
 
     public function alert(\Stringable|string $message, array $context = []): void
     {
-        // TODO: Implement alert() method.
+        $this->writer->write("ALERT",$message,$context);
     }
 
     public function critical(\Stringable|string $message, array $context = []): void
     {
-        // TODO: Implement critical() method.
+        $this->writer->write("CRITIC",$message,$context);
     }
 
     public function error(\Stringable|string $message, array $context = []): void
     {
-        // TODO: Implement error() method.
+        $this->writer->write("ERROR",$message,$context);
     }
 
     public function warning(\Stringable|string $message, array $context = []): void
     {
-        // TODO: Implement warning() method.
+        $this->writer->write("WARNING",$message,$context);
     }
 
     public function notice(\Stringable|string $message, array $context = []): void
     {
-        // TODO: Implement notice() method.
+        $this->writer->write("NOTICE",$message,$context);
     }
 
     public function info(\Stringable|string $message, array $context = []): void
     {
-        // TODO: Implement info() method.
+        $this->writer->write("INFO",$message,$context);
     }
 
     public function debug(\Stringable|string $message, array $context = []): void
     {
-        // TODO: Implement debug() method.
+        $this->writer->write("DEBUG",$message,$context);
     }
 
     public function log($level, \Stringable|string $message, array $context = []): void
     {
-        // TODO: Implement log() method.
+        $this->writer->write($level,$message,$context);
     }
 }

@@ -13,8 +13,8 @@ $formatter = new FileFormatter();//форматтер создаётся оди�
 $writer = new FileWriter($formatter);//один раз создайтся врайтер, но он использует уже созданный форматтер
 $logger  = new Logger($writer);//ну и создаётся логер, подхватывающий ранее созданный врайтер
 
-$logger->universalWrite("Some message","kk" ,['key' => 'value']);
-$logger->universalWrite("Some another message","kk" ,['ky' => 'v']);
-$logger->universalWrite("Some third message","kdscfvk" );
+$logger->log("CUSTOM LEVEL","kk" ,['key' => 'value']);
+$logger->debug("Some another message",['ky' => 'v']);
+$logger->emergency("Some third message","kdscfvk" );
 
 
